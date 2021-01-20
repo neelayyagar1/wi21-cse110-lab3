@@ -44,15 +44,16 @@ li li {
   list-style-type: sqaure; 
 }
 
-body > p {
+details > summary {
   color: orange;
 }
 
-ol + p {
+p + strong {
   font-family: Times;
+  border: pink;
 }
 
-ol ~ li {
+p ~ code {
   background: red;
 }
 
