@@ -28,7 +28,7 @@ a[href="www.google.com"]{
 }
 
 a:visited{
-  color: blue;
+  color: red;
 }
 
 /*When you hover over H1, You'll get a heading that is pink and aligned in the center*/
