@@ -22,7 +22,6 @@ ul {
   color: magenta;
   opacity: .6;
   margin: 50px 50px 50px 50px;
-  position: static;
 }
 
 /*makes background of google link green anc changes font*/
@@ -34,6 +33,7 @@ a[href="https://www.google.com"]{
 
 a:active{
   color: red;
+  position: static;
 }
 
 /*When you hover over H1, You'll get a heading that is pink and aligned in the center*/
