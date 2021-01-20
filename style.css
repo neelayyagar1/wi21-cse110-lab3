@@ -1,0 +1,64 @@
+.class {
+  color: blue;
+  text-align: center;
+}
+
+#id {
+  color: green;
+  text-align: center;
+}
+
+* {
+  color: yellow;
+  font-family: Times New Roman;
+}
+
+element {
+  color: red;
+  opacity: .6;
+}
+
+a[href="https://www.google.com"]{
+  background:green;
+  display: none;
+  font-family: serif;
+}
+
+a:visited{
+  color:blue;
+}
+
+h1:hover{
+  color: orange;
+  backgrund: blue;
+  text-align: center;
+}
+
+h2, h3 {
+  font-family: fantasy;
+}
+
+li {
+  list-style-type: circle;
+}
+
+li li {
+  list-style-type: sqaure; 
+}
+
+body > p {
+  color: orange;
+}
+
+ol + p {
+  background: yellow;
+  font-family: Times;
+}
+
+ol ~ li {
+  background: red;
+}
+
+.class.classBorder {
+  border: blue;
+}
