@@ -39,13 +39,8 @@ h2, h3 {
   font-family: monospace;
 }
 
-/*lists will have circles*/
-li {
-  list-style-type: circle;
-}
-
 li li {
-  list-style-type: lower-alpha; 
+  list-style-type: circle; 
 }
 
 details > summary {
