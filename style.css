@@ -1,12 +1,14 @@
 /*Class for purple header3*/
 .notClass {
-  color: purple;
+  color: rgba(145, 61, 136, 1);
   text-align: center;
+  font-size: 3cm;
 }
 
 #id {
-  color: green;
+  color: #AAA;
   text-align: center;
+  font-size: 1500mm;
 }
 
 * {
@@ -21,30 +23,41 @@ ul {
 
 /*makes background of google link green anc changes font*/
 a[href="www.google.com"]{
-  background:green;
+  background: rgb(0,255,0);
   font-family: serif;
 }
 
 a:visited{
-  color:blue;
+  color: blue;
 }
 
 /*When you hover over H1, You'll get a heading that is pink and aligned in the center*/
 h1:hover{
-  color: pink;
+  color: coral;
   text-align: center;
+  font-size: 2em;
 }
 
 h2, h3 {
   font-family: monospace;
+  font-size: 2ch;
 }
 
 li li {
   list-style-type: circle; 
+  font-size: 2%;
+}
+
+body {
+  background-color: pink;
+  border-style: dotted;
+  border-color: black;
+  border-width: thin;
+  border-radius: 6px;
 }
 
 details > summary {
-  color: orange;
+  color: hsla(33, 96, 63, 1);
 }
 
 p + strong {
@@ -53,9 +66,9 @@ p + strong {
 }
 
 p ~ code {
-  background: red;
+  background: hsl(14, 79, 44);
 }
 
 .notClass.classBorder {
-  color: orange;
+  color: #00ff00;
 }
