@@ -50,7 +50,7 @@ details > summary {
 
 p + strong {
   font-family: Times;
-  border: pink;
+  color: pink;
 }
 
 p ~ code {
@@ -58,5 +58,5 @@ p ~ code {
 }
 
 .notClass.classBorder {
-  border: blue;
+  color: orange;
 }
