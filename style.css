@@ -57,6 +57,6 @@ p ~ code {
   background: red;
 }
 
-.class.classBorder {
+.notClass.classBorder {
   border: blue;
 }
