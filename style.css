@@ -22,6 +22,7 @@ ul {
   color: magenta;
   opacity: .6;
   margin: 200px 200px 200px 200px;
+  position: absolute;
 }
 
 /*makes background of google link green anc changes font*/
@@ -31,7 +32,7 @@ a[href="https://www.google.com"]{
   text-decoration: underline;
 }
 
-a:visited{
+a:active{
   color: red;
 }
 
@@ -58,11 +59,13 @@ li li {
 }
 
 p.none {
- display: none; 
+  display: none; 
+  max-width: 90%;
+  min-height: 30%;
 }
 
 p.inline {
- display: inline; 
+  display: inline;
 }
 
 body {
@@ -89,8 +92,35 @@ p + strong {
 p ~ code {
   background: hsl(14, 79%, 44%);
   padding: 100px, 200px, 200px, 100px;
+  position: fixed;
 }
 
 .notClass.classBorder {
   color: #00ff00;
+}
+
+.flexbox {
+  display: flex;
+  background-color: green;
+  flex-direction: row-reverse;
+  flew-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexbox > div {
+  background-color: #AAA; 
+}
+
+.grid {
+  display: grid;
+  flex-direction: row;
+  flew-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.grid > div {
+  background-color: blue;
+  text-align: center;
 }
