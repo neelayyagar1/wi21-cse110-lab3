@@ -22,7 +22,7 @@ ul {
   color: magenta;
   opacity: .6;
   margin: 50px 50px 50px 50px;
-  position: absolute;
+  position: static;
 }
 
 /*makes background of google link green anc changes font*/
