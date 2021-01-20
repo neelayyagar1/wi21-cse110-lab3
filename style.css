@@ -17,9 +17,8 @@ ul {
   opacity: .6;
 }
 
-a[href="https://www.google.com"]{
+a[href="www.google.com"]{
   background:green;
-  display: none;
   font-family: serif;
 }
 
