@@ -33,7 +33,7 @@ h1:hover{
 }
 
 h2, h3 {
-  font-family: georgia;
+  font-family: monospace;
 }
 
 li {
@@ -41,7 +41,7 @@ li {
 }
 
 li li {
-  list-style-type: sqaure; 
+  list-style-type: square; 
 }
 
 details > summary {
