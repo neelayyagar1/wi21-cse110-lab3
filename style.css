@@ -9,6 +9,8 @@
   color: #AAA;
   text-align: center;
   font-size: 15mm;
+  height: auto;
+  width: auto;
 }
 
 * {
@@ -19,12 +21,14 @@
 ul {
   color: magenta;
   opacity: .6;
+  margin: 200px 200px 200px 200px;
 }
 
 /*makes background of google link green anc changes font*/
 a[href="https://www.google.com"]{
   background: rgb(0,255,0);
   font-family: serif;
+  text-decoration: underline;
 }
 
 a:visited{
@@ -41,11 +45,16 @@ h1:hover{
 h2, h3 {
   font-family: monospace;
   font-size: 1.1ch;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 li li {
   list-style-type: circle; 
   font-size: 1.1%;
+  margin: auto;
 }
 
 body {
@@ -61,12 +70,17 @@ details > summary {
 }
 
 p + strong {
-  font-family: Times;
+  font-family: 'Roboto', sans-serif;
   color: pink;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 p ~ code {
   background: hsl(14, 79%, 44%);
+  padding: 100px, 200px, 200px, 100px;
 }
 
 .notClass.classBorder {
