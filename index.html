@@ -10,145 +10,130 @@
   
   <body>
     <main>
-          <header>
-      <h1>Header1</h1>
-      <h2>Header2</h2>
-      <h3>Header3</h3>
-    </header>
+      <header>
+        <h1>Header1</h1>
+        <h2>Header2</h2>
+        <h3>Header3</h3>
+      </header>
+      
       <section>
         <p>This is a section</p>
         <aside>
           <p>This is an aside</p>
         </aside>
-      </section>
+      </section>   
     </main>
+    
     <nav>
       <a href="www.google.com">This is Google.com</a>
     </nav>
   
+    <div>
+      <p>this is div</p>
+    </div>
   
-  <div>
-    <p>this is div</p>
-  </div>
+    <ul>
+      <li>this</li>
+      <li>is</li>
+      <li>unordered</li>
+    </ul>
+    
+    <ol>
+      <li>this</li>
+      <li>is</li>
+      <li>ordered</li>
+    </ol>
   
+    <p>This is a p label with a span <span style="color:green">green</span></p>
+   
+    <figure>
+      <img src="download.png" alt="Manchester United" style="width:100%">
+      <figcaption>Fig.1 - The best soccer team ever</figcaption>
+    </figure>  
   
-  <ul>
-    <li>this</li>
-    <li>is</li>
-    <li>unordered</li>
-  </ul>
-  
-  
-  <ol>
-    <li>this</li>
-    <li>is</li>
-    <li>ordered</li>
-  </ol>
-  
-  
-  <p>This is a p label with a span <span style="color:green">green</span></p>
-  
-  
-  <figure>
-    <img src="download.png" alt="Manchester United" style="width:100%">
-    <figcaption>Fig.1 - The best soccer team ever</figcaption>
-  </figure>
-  
-  
-  <p> this is <em>a p</em> lable with <b>bold</b> text as well as <i>text in italics</i></p>
-  <strong>This <code>is</code> amazing!!</strong>
-  
+    <p> this is <em>a p</em> lable with <b>bold</b> text as well as <i>text in italics</i></p>
+    
+    <strong>This <code>is</code> amazing!!</strong>
 
     <pre>This is pre text</pre>
-  
 
- <picture>
-  <img src="download.png" alt="Manchester United" width="500" height="600">
- </picture>
+    <picture>
+      <img src="download.png" alt="Manchester United" width="500" height="600">
+    </picture>
   
+    <iframe src="https://www.google.com" title="this is google"></iframe>
 
-  <iframe src="https://www.google.com" title="this is google"></iframe>
-  
+    <audio controls>
+      <source src="sweeping_straw_broom-mike-koenig.mp3" type="audio/mpeg">
+    </audio>
 
-  <audio controls>
-    <source src="sweeping_straw_broom-mike-koenig.mp3" type="audio/mpeg">
-  </audio>
-  
+    <video width="400" height="400" controls>
+      <source src="Pexels-Videos-1711832.mp4" type="video/mp4">
+    </video>  
 
-  <video width="400" height="400" controls>
-    <source src="Pexels-Videos-1711832.mp4" type="video/mp4">
-  </video>
-  
+    <canvas id="canvas">
+      this is a canvas
+    </canvas>  
 
-  <canvas id="canvas">
-    this is a canvas
-  </canvas>
-  
+    <svg width="200" height="300">
+      <circle cx="70" cy="90" r="20" stroke="green" stroke-width="2" fill="green" />
+    </svg> 
 
-  <svg width="200" height="300">
-    <circle cx="70" cy="90" r="20" stroke="green" stroke-width="2" fill="green" />
-  </svg>
-  
+    <textarea>this is the text area</textarea> 
 
-  <textarea>this is the text area</textarea>
-  
+    <label for="classes">Choose classes:</label>
+    <select name="classes" id="classes">
+      <optgroup label="CS classes">
+        <option value="CSE110">CSE110</option>
+        <option value="CSE101">CSE101</option>
+        <option value="CSE11">CSE11</option>
+      </optgroup>
+      <optgroup label="not CS classes">
+        <option value="COGS110">CSE110</option>
+        <option value="PHIL101">CSE101</option>
+        <option value="DSC11">CSE11</option>
+      </optgroup>
+    </select>
+ 
+    <form>
+      <fieldset>
+        <legend>Legend</legend>
+        <label id="soccerteam">Soccer Team:</label>
+        <input type="text"><br>
+        <input type="checkbox"><br>
+        <input type="password"><br>
+        <input type="button" value="empty"><br>
+        <input type="email"><br>
+        <input type="number"><br>
+        <input type="submit"><br>
+        <input type="week"><br>
+        <input type="file"><br>
+        <input type="tel"><br>
+      </fieldset>
+    </form>  
 
-  <label for="classes">Choose classes:</label>
-  <select name="classes" id="classes">
-    <optgroup label="CS classes">
-      <option value="CSE110">CSE110</option>
-      <option value="CSE101">CSE101</option>
-      <option value="CSE11">CSE11</option>
-    </optgroup>
-    <optgroup label="not CS classes">
-      <option value="COGS110">CSE110</option>
-      <option value="PHIL101">CSE101</option>
-      <option value="DSC11">CSE11</option>
-    </optgroup>
-  </select>
-  
-
-  <form>
-    <fieldset>
-      <legend>Legend</legend>
-      <label id="soccerteam">Soccer Team:</label>
-      <input type="text"><br>
-      <input type="checkbox"><br>
-      <input type="password"><br>
-      <input type="button" value="empty"><br>
-      <input type="email"><br>
-      <input type="number"><br>
-      <input type="submit"><br>
-      <input type="week"><br>
-      <input type="file"><br>
-      <input type="tel"><br>
-    </fieldset>
-  </form>
-  
-
-  <datalist>
-    <option value="datalist"></option>
-  </datalist>
-  
-
-  <table>
-    <caption>Its a table</caption>
-    <colgroup>
-      <col span="1">
-    </colgroup>
-    <tr>
-      <th>table</th>
-    </tr>
-    <tr>
-      <td>table</td>
-    </tr>
-  </table>
+    <datalist>
+      <option value="datalist"></option>
+    </datalist>
+ 
+    <table>
+      <caption>Its a table</caption>
+      <colgroup>
+        <col span="1">
+      </colgroup>
+      <tr>
+        <th>table</th>
+      </tr>
+      <tr>
+        <td>table</td>
+      </tr>
+    </table>
                  
-  <details>
-     <summary>This is my project</summary>
-  </details>
+    <details>
+       <summary>This is my project</summary>
+    </details>
                  
-  <button type="button">Does Nothing!</button> 
+    <button type="button">Does Nothing!</button> 
           
     <footer>
       <h1>this is a footer</h1>
