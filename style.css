@@ -22,7 +22,7 @@ ul {
 }
 
 /*makes background of google link green anc changes font*/
-a[href="www.google.com"]{
+a[href="https://www.google.com"]{
   background: rgb(0,255,0);
   font-family: serif;
 }
