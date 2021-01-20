@@ -120,7 +120,7 @@ p ~ code {
   align-items: center;
 }
 
-.grid > div {
+.grid > li {
   background-color: blue;
   text-align: center;
 }
