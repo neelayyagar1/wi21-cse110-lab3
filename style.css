@@ -1,5 +1,4 @@
-/*This is a comment, and the beginning of my stylesheet*/
-
+/*Class for purple header3*/
 .notClass {
   color: purple;
   text-align: center;
@@ -14,11 +13,13 @@
   font-family: Times New Roman;
 }
 
+/*make unordered lists magenta and changes the opacity*/
 ul {
   color: magenta;
   opacity: .6;
 }
 
+/*makes background of google link green anc changes font*/
 a[href="www.google.com"]{
   background:green;
   font-family: serif;
@@ -28,10 +29,9 @@ a:visited{
   color:blue;
 }
 
-/*When you hover over H1, You'll get a heading that is pink, background Blue, and aligned in the center*/
+/*When you hover over H1, You'll get a heading that is pink and aligned in the center*/
 h1:hover{
   color: pink;
-  background: blue;
   text-align: center;
 }
 
@@ -39,11 +39,11 @@ h2, h3 {
   font-family: monospace;
 }
 
+/*lists will have circles*/
 li {
   list-style-type: circle;
 }
 
-/*Nested lists will have disks*/
 li li {
   list-style-type: lower-alpha; 
 }
