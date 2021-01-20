@@ -33,7 +33,7 @@ a:visited{
 
 /*When you hover over H1, You'll get a heading that is pink and aligned in the center*/
 h1:hover{
-  color: coral;
+  color: pink;
   text-align: center;
   font-size: 2em;
 }
